@@ -1,0 +1,17 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	dhcp
+#open	2025-11-23-10-29-51
+#fields	ts	uids	client_addr	server_addr	mac	host_name	client_fqdn	domain	requested_addr	assigned_addr	lease_time	client_message	server_message	msg_types	duration
+#types	time	set[string]	addr	addr	string	string	string	string	addr	addr	interval	string	string	vector[string]	interval
+1541117139.918685	Cqe2HQ3VshrPLGTMr,Chj9AY3h8uZPc8SCNg	172.16.9.233	-	00:08:02:1c:47:ae	Banshee157-PC	-	bansheetree.net	-	-	-	-	-	INFORM,ACK	0.000553
+1541117759.524603	C2XQJt1VSvJtOV4ly9,Ce0E7o477lTbzgSuyg	172.16.9.233	-	00:08:02:1c:47:ae	Banshee157-PC	-	bansheetree.net	-	-	-	-	-	INFORM,ACK	0.000660
+1541117941.896326	CMUQfD41rDfr2oFE2e,CDlNLy4hXj7GZXBsQ	172.16.9.233	-	00:08:02:1c:47:ae	Banshee157-PC	-	bansheetree.net	-	-	-	-	-	INFORM,ACK	0.000593
+1541118299.040401	CYHqT020csYilp1NYg,CLg17H2QbhN4ESnFIb	172.16.9.233	-	00:08:02:1c:47:ae	Banshee157-PC	-	bansheetree.net	-	-	-	-	-	INFORM,ACK	0.000545
+1541119727.024206	CekLdX1ApuMmGDXEjg,CNabQ846GlC6Udnvuh	172.16.9.233	-	00:08:02:1c:47:ae	Banshee157-PC	-	bansheetree.net	-	-	-	-	-	INFORM,ACK	0.000277
+1541436028.937511	C8t95d3KLpBLtEqKef,CdOBXvFMv4WWtjtUl	172.16.9.233	-	00:08:02:1c:47:ae	Banshee157-PC	-	bansheetree.net	-	-	-	-	-	INFORM,ACK	0.000698
+1541439902.009993	CgkbbA3fgm2xaITGu	172.16.9.233	172.16.9.5	00:08:02:1c:47:ae	-	-	bansheetree.net	-	172.16.9.233	691200.000000	-	-	ACK	0.000000
+1541439905.481569	CU8v5640WbNsQVr6b8,CAa7B84QgdWLPUQORe	172.16.9.233	-	00:08:02:1c:47:ae	Banshee157-PC	-	bansheetree.net	-	-	-	-	-	INFORM,ACK	0.000002
+#close	2025-11-23-10-29-58
